@@ -1,16 +1,14 @@
 # Profile information
 name: Hugo Koji Tamaki
 title: Hugo Koji Tamaki
-description: > # this means to ignore newlines until "baseurl:"
-  Desenvolvedor, geek e rubiysta.
+description:
+  Hugo Koji Tamaki, desenvolvedor Ruby, JavaScript e gamer.
 permalink: ':title/'
 url: "artemsheludko.pw" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social
-facebook: #Add your Facebook
-twitter: #Add your Twitter
-google-plus: #Add your Google+
-github: #Add your Github
+facebook: hugo.tamaki
+github: hugotamaki
 
 # Contact form
 email: #your-email@domain.com

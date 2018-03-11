@@ -10,6 +10,8 @@ permalink: /sobre/
 
 <p>Gosto muito de aprender sobre novas tecnologias, novos paradigmas, e também gosto muito de ensinar.</p>
 
+<p>Também sou tutor do CEDERJ, no polo de Niterói, das disciplinas de Construção de Páginas Web e Programação com Interfaces Gráficas</p>
+
 <h2>Contato</h2>
 
 <div>

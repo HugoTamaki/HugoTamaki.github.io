@@ -1,0 +1,72 @@
+---
+---
+
+.sidebar-menu {
+  .menu-items {
+    color: #FFB50D;
+  }
+}
+
+.sidebar-container {
+  p {
+    color: #fff;
+  }
+}
+
+.sidebar-logo {
+  .logo {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    color: #FFB50D;
+    line-height: 63px;
+  }
+
+}
+
+.sidebar-menu {
+  .menu-links:hover {
+    background-color: #FFB50D;
+    color: #515151;
+  }
+}
+
+a {
+  color: #FFB50D;
+}
+
+a:hover {
+  color: #FFB50D;
+}
+
+.main-article .title-article, .main-article .page-title, .main-article .post-title, .page-article .title-article, .page-article .page-title, .page-article .post-title, .post .title-article, .post .page-title, .post .post-title {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  color: #FFB50D;
+
+  a {
+    color: #FFB50D;
+  }
+}
+
+.page-article {
+  .page-date {
+    span {
+      color: #515151;
+    }
+  }
+}
+
+.main-article {
+  .post-date {
+    span {
+      color: #515151;
+    }
+  }
+
+  .more {
+    color: #FFB50D;
+  }
+}
+
+.center-img {
+  margin: 0 auto;
+  display: block;
+}

@@ -55,3 +55,7 @@ published: true
 <h1>Git Gutter</h1>
 
 <p>Esse é bom se você usa git, e quer ver quais códigos você adicionou, modificou ou removeu.</p>
+
+<p>
+  <img src="{{ "/assets/img/git-gutter.gif" | prepend: site.baseurl }}" alt="Git Gutter" class="center-img">
+</p>

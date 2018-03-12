@@ -24,7 +24,7 @@ published: true
 
 <h2>Bracket Highlighter</h2>
 
-<p>Este plugin permite visualizar onde começa e onde termina um bloco de código. É interessante quando você tem um bloco muito grande de código, e quer visualizar rapidamente onde o bloco começa e termina, ou até mesmo para ver se há algum erro no seu html</p>
+<p>O Bracket Highlighter permite visualizar onde começa e onde termina um bloco de código. É interessante quando você tem um bloco muito grande de código, e quer visualizar rapidamente onde o bloco começa e termina, ou até mesmo para ver se há algum erro no seu html</p>
 
 <p>
   <img src="{{ "/assets/img/bracket.png" | prepend: site.baseurl }}" alt="Bracket Highlighter" class="center-img">
@@ -44,7 +44,7 @@ published: true
 
 <h2>Alignment</h2>
 
-<p>Esse é bom se você tem TOC :P</p>
+<p>Alignment é um plugin bom se você tem TOC :P</p>
 
 <p>Às vezes, quando se tem muitas linhas de atribuição por exemplo, é interessante alinhar os elementos de acordo com um padrão, para melhorar a visualização, e se você tem essa mania, esse plugin é para você</p>
 
@@ -54,7 +54,7 @@ published: true
 
 <h2>Git Gutter</h2>
 
-<p>Esse é bom se você usa git, e quer ver quais códigos você adicionou, modificou ou removeu.</p>
+<p>Este é bom se você usa git, e quer ver quais códigos você adicionou, modificou ou removeu.</p>
 
 <p>
   <img src="{{ "/assets/img/git-gutter.gif" | prepend: site.baseurl }}" alt="Git Gutter" class="center-img">

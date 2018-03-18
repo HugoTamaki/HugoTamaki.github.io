@@ -24,9 +24,11 @@ published: true
 
 <p>Ao acessar o site, você verá este código:</p>
 
-<p>
-  <img src="{{ "/assets/img/package-control-install.png" | prepend: site.baseurl }}" alt="Package Control install" class="center-img">
-</p>
+<figure>
+  <p>
+    <img src="{{ "/assets/img/package-control-install.png" | prepend: site.baseurl }}" alt="Package Control install" class="center-img">
+  </p>
+</figure>
 
 <p>Copie o código todo que aparece abaixo de "Sublime Text 3". (Caso seu editor seja o Sublime Text 2, mude a aba e copie o outro código exibido)</p>
 
@@ -42,12 +44,16 @@ published: true
 
 <p>Digite <strong>install package</strong>, e você verá que o comando que um dos comandos que aparece na busca será o <strong>Package Control: Install Package</strong>. Aperte Enter com a opção selecionada (ou selecione com o mouse)</p>
 
-<p>
-  <img src="{{ "/assets/img/command-pallete.png" | prepend: site.baseurl }}" alt="Command Pallete" class="center-img">
-</p>
+<figure>
+  <p>
+    <img src="{{ "/assets/img/command-pallete.png" | prepend: site.baseurl }}" alt="Command Pallete" class="center-img">
+  </p>
+</figure>
 
 <p>Em seguida, o Package Control irá buscar os plugins disponíveis através da internet, o que pode levar alguns segundos, e logo em seguida uma lista com os plugins irá aparecer. Digite o nome do plugin que quer instalar e seja feliz :D</p>
 
-<p>
-  <img src="{{ "/assets/img/plugins-list.png" | prepend: site.baseurl }}" alt="Lista de Plugins" class="center-img">
-</p>
+<figure>
+  <p>
+    <img src="{{ "/assets/img/plugins-list.png" | prepend: site.baseurl }}" alt="Lista de Plugins" class="center-img">
+  </p>
+</figure>

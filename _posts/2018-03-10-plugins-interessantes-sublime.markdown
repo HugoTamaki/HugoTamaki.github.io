@@ -18,17 +18,21 @@ published: true
 
 <p>Ele possui uma série de snippets para autocompletar, abrir e fechar as tags, e já inserir classes e ids, sem contar com uma espécie de "atalho" para produzir uma série de tags de uma vez só</p>
 
-<p>
-  <img src="{{ "/assets/img/emmet.gif" | prepend: site.baseurl }}" alt="Emmet" class="center-img">
-</p>
+<figure>
+  <p>
+    <img src="{{ "/assets/img/emmet.gif" | prepend: site.baseurl }}" alt="Emmet" class="center-img">
+  </p>
+</figure>
 
 <h2>Bracket Highlighter</h2>
 
 <p>O Bracket Highlighter permite visualizar onde começa e onde termina um bloco de código. É interessante quando você tem um bloco muito grande de código, e quer visualizar rapidamente onde o bloco começa e termina, ou até mesmo para ver se há algum erro no seu html</p>
 
-<p>
-  <img src="{{ "/assets/img/bracket.png" | prepend: site.baseurl }}" alt="Bracket Highlighter" class="center-img">
-</p>
+<figure>
+  <p>
+    <img src="{{ "/assets/img/bracket.png" | prepend: site.baseurl }}" alt="Bracket Highlighter" class="center-img">
+  </p>
+</figure>
 
 <h2>AllAutocomplete</h2>
 
@@ -38,9 +42,11 @@ published: true
 
 <p>Este plugin permite visualizar quais cores você está usando no editor. </p>
 
-<p>
-  <img src="{{ "/assets/img/color-highlighter.png" | prepend: site.baseurl }}" alt="Bracket Highlighter" class="center-img">
-</p>
+<figure>
+  <p>
+    <img src="{{ "/assets/img/color-highlighter.png" | prepend: site.baseurl }}" alt="Bracket Highlighter" class="center-img">
+  </p>
+</figure>
 
 <h2>Alignment</h2>
 
@@ -48,16 +54,20 @@ published: true
 
 <p>Às vezes, quando se tem muitas linhas de atribuição por exemplo, é interessante alinhar os elementos de acordo com um padrão, para melhorar a visualização, e se você tem essa mania, esse plugin é para você</p>
 
-<p>
-  <img src="{{ "/assets/img/alignment.gif" | prepend: site.baseurl }}" alt="Alignment" class="center-img">
-</p>
+<figure>
+  <p>
+    <img src="{{ "/assets/img/alignment.gif" | prepend: site.baseurl }}" alt="Alignment" class="center-img">
+  </p>
+</figure>
 
 <h2>Git Gutter</h2>
 
 <p>Este é bom se você usa git, e quer ver quais códigos você adicionou, modificou ou removeu.</p>
 
-<p>
-  <img src="{{ "/assets/img/git-gutter.gif" | prepend: site.baseurl }}" alt="Git Gutter" class="center-img">
-</p>
+<figure>
+  <p>
+    <img src="{{ "/assets/img/git-gutter.gif" | prepend: site.baseurl }}" alt="Git Gutter" class="center-img">
+  </p>
+</figure>
 
 <p>Você pode instalar outros plugins que achar interessante visitando <a href="https://packagecontrol.io/">https://packagecontrol.io/</a>. Existem outros ótimos plugins a serem descobertos, assim como temas e padrões de cores. Vale a pena dar uma pesquisada de vez em quando</p>

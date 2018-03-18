@@ -14,7 +14,7 @@ published: true
 
 <h2>Como você versiona seus projetos?</h2>
 
-<p>Bem, você já deve ter passado por alguma situação em que estava trabalhando com algum projeto grande de faculdade ou de algum curso, ou mesmo escrevendo algum TCC ou trabalho em grupo, e provavelmente já precisou guardar <strong>versões</strong> diferentes do projeto, pro caso de precisar voltar no tempo e ter diferentes estágios de desenvolvimento do projeto, certo?</p>
+<p>Bem, você já deve ter passado por alguma situação em que estava trabalhando com algum projeto grande de faculdade ou de algum curso, ou mesmo escrevendo algum TCC ou trabalho em grupo, e provavelmente já precisou guardar <strong>versões</strong> diferentes do projeto, pro caso de precisar voltar no tempo e ter diferentes estágios de desenvolvimento, certo?</p>
 
 <figure>
   <p>
@@ -82,9 +82,9 @@ published: true
 
 <h2>O git e o github são a mesma coisa?</h2>
 
-<p>Não, o git é a ferramenta de versionamento que roda na sua máquina, já o github é um serviço para criar repositórios remotos.</p>
+<p>Não, o <strong>git</strong> é a ferramenta de versionamento que roda na sua máquina, já o <strong>github</strong> é um serviço para criar repositórios remotos.</p>
 
-<p>E o que seria um repositório remoto? Um repositório remoto é como se seu projeto estivesse guardado com um histórico de git, mas na nuvem. Resumindo, o <strong>github</strong> é um serviço que permite guardar o seu projeto e todos os commits dele na nuvem. O git é excelente para projetos open source, já que os repositórios são abertos e qualquer usuário pode acessá-los</p>
+<p>E o que seria um <strong>repositório remoto</strong>? Um repositório remoto é como se seu projeto estivesse guardado com um histórico de git, mas na nuvem. Resumindo, o <strong>github</strong> é um serviço que permite guardar o seu projeto e todos os commits dele na nuvem. O git é excelente para projetos <strong>open source</strong>, já que os repositórios são abertos e qualquer usuário pode acessá-los, e caso queiram adicionar modificações, podem pedir ao dono do repositório, enviando <strong>Pull Requests</strong>. Também pretendo explicar em outro post como isso é feito</p>
 
 <p>Muitas empresas pedem para ver seus projetos no github para poderem ver como você escreve códigos, então é um ótimo portfólio</p>
 

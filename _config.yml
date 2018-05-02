@@ -4,7 +4,7 @@ title: Hugo Koji Tamaki
 description:
   Hugo Koji Tamaki, desenvolvedor Ruby, JavaScript e gamer.
 permalink: ':title/'
-url: "artemsheludko.pw" # the base hostname & protocol for your site, e.g. http://example.com
+url: "hugotamaki.github.io"
 
 # Social
 facebook: hugo.tamaki
@@ -25,9 +25,16 @@ markdown: kramdown
 gems:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
 include: [_pages, _posts]
 sass:
   compress: true
+
+social:
+  name: Hugo Koji Tamaki
+  links:
+    - https://www.facebook.com/hugo.tamaki
+    - https://github.com/HugoTamaki

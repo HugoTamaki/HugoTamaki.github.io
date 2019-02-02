@@ -61,7 +61,7 @@ published: true
 
 <h2>Entendendo o HTML</h2>
 
-<p>Você deve ter reparado que existem tags que abrem e que fecham. Por exemplo, a tag <strong>&lt;head&gt;</strong> e a tag <strong>&lt;/head&gt;</strong> marcam a sessão head, que contém meta informações que não são exibidos na página por exemplo. A tag <strong>title</strong> por exemplo diz qual vai ser o titulo exibido na aba do navegador, a tag <strong>meta</strong> pode conter varias informações, no caso do exemplo, qual o encoding usado pelo navegador para essa página (no caso, UTF-8, que reconhece acentos)</p>
+<p>Você deve ter reparado que existem tags que abrem e que fecham. Por exemplo, a tag <strong>&lt;head&gt;</strong> e a tag <strong>&lt;/head&gt;</strong> marcam a sessão head, que contém meta informações que não são exibidos na página. A tag <strong>title</strong> diz qual vai ser o titulo exibido na aba do navegador, a tag <strong>meta</strong> pode conter varias informações, no caso do exemplo, qual o encoding usado pelo navegador para essa página (no caso, UTF-8, que reconhece acentos)</p>
 
 <p>A tag <strong>body</strong> marca a sessão onde haverão coisas que aparecerão na página em si. A tag <strong>h1</strong> marca um cabeçalho, de nível 1 (para títulos principais). Experimente mudar para <strong>h2</strong>, <strong>h3</strong> ou <strong>h4</strong> por exemplo!</p>
 

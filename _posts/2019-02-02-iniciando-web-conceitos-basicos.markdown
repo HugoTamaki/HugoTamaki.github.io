@@ -34,7 +34,7 @@ published: true
 </ul>
 
 
-<p>De longe é o meu editor preferido, abre projetos e arquivos de forma rápida e raramente trava. Ele sozinho não faz muita mágica, mas ao instalar o Package Control (<a href="{{ "/instalando-package-control-sublime" | prepend: site.baseurl }}" target="_blank">mais detalhes aqui</a>), você pode instalar uma infinidade de plugins que agilizam seu desenvolvimento de uma forma inacreditavel! Segue <a href="{{ "/plugins-interessantes-sublime" | prepend: site.baseurl }}" target="_blank">aqui</a> um post com alguns plugins favoritos que costumo usar. A única desvantagem é que de vez em quando abre um popup para comprar a licença. Comprando a licença o popup para de aparecer, mas as funcionalidades pagando ou não pagando são as mesmas.</p>
+<p>De longe o <strong>Sublime Text 3</strong> é meu editor preferido, abre projetos e arquivos de forma rápida e raramente trava. Ele sozinho não faz muita mágica, mas ao instalar o Package Control (<a href="{{ "/instalando-package-control-sublime" | prepend: site.baseurl }}" target="_blank">mais detalhes aqui</a>), você pode instalar uma infinidade de plugins que agilizam seu desenvolvimento de uma forma inacreditavel! Segue <a href="{{ "/plugins-interessantes-sublime" | prepend: site.baseurl }}" target="_blank">aqui</a> um post com alguns plugins favoritos que costumo usar. A única desvantagem é que de vez em quando abre um popup para comprar a licença. Comprando a licença o popup para de aparecer, mas as funcionalidades pagando ou não pagando são as mesmas.</p>
 
 <h2>Criando um arquivo .html</h2>
 

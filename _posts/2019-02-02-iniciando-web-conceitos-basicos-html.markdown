@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Iniciando no desenvolvimento web - Conceitos básicos"
+title:  "Iniciando no desenvolvimento web - Conceitos básicos - HTML5"
 date:   2019-02-02 13:29:00 +0300
 img:
 description: Conceitos básicos para iniciar no desenvolvimento web do zero.

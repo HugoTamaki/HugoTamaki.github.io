@@ -19,10 +19,11 @@ discus-identifier: # Add your Disqus identifier
 # Paginate
 paginate: 5
 paginate_path: /page:num/
+excerpt_separator: ""
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag

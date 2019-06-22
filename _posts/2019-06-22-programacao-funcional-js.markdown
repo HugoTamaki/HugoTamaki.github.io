@@ -10,7 +10,7 @@ published: true
 
 <p>Neste post, pretendo dar os conceitos básicos por tras do que é chamado programação funcional.</p>
 
-<p>Pega algo para comer / beber, e leia com calma cada um dos exemplos e a explicação, pode ser um pouco massante, mas vai valer a pena.</p>
+<p>Pega algo para comer / beber, e leia com calma cada um dos exemplos e a explicação, pode ser um pouco maçante, mas vai valer a pena.</p>
 
 <p>A programação funcional é um paradigma de programação que enfatiza a aplicação de funções. Não são todas as linguagens que suportam este paradigma.</p>
 

@@ -1,0 +1,96 @@
+---
+layout: post
+title:  "Promises em JS"
+date:   2020-07-15 19:24:00 +0300
+img:
+description: Promises em JS
+categories: Desenvolvimento Web
+published: true
+---
+
+<p>Imagine que você precisa que um amigo seu realize uma tarefa para você. Exemplo: Ir até o correio e postar uma carta, mas você não sabe se quando seu amigo chegar lá, o correio estará aberto ou fechado.</p>
+
+<p>Então, você precisa passar uma instrução para seu amigo. <b>Se o correio estiver aberto, poste a carta por favor</b>, caso contrário, <b>me ligue avisando que não conseguiu postar</b>.</p>
+
+<figure>
+  <p>
+    <img src="https://media.giphy.com/media/UwrdbvJz1CNck/source.gif" alt="Procurando cartas" class="center-img">
+  </p>
+  <figcaption>
+    O que farei com essas cartas?
+  </figcaption>
+</figure>
+
+
+<p>Isso poderia ser um exemplo de estrutura condicional em JavaScript, certo? Porém, há uma diferença: Você não saberá o que vai acontecer, a tarefa pode ocorrer depois de algum tempo que você pediu, e seu amigo terá que fazer uma <b>promessa</b> a você sobre o que fazer com o resultado.</p>
+
+<p>Neste post, falarei sobre <b>Promise</b>.</p>
+
+<p>Este conceito vem solucionar problemas que são assíncronos com relação a execução do seu código. Ou seja, o resultado de um processamento não acontece na mesma hora que você chamou sua execução, e ele exige um tratamento de sucesso ou falha.</p>
+
+<h2>Vamos ao código</h2>
+
+<p>O código seguinte faz uma requisição assíncrona a uma API do github, pra pegar os dados de um usuário qualquer.</p>
+
+<script src="https://gist.github.com/HugoTamaki/0043d337a7ea7ca7f61cf35740d16db0.js"></script>
+
+<p>Das linhas 7 a 16, temos a definição de uma função, que se chama <b>getUserFromGithub</b>. Ela faz uma requisição pra API do github, recebendo o username do usuario como argumento.</p>
+
+<p>Na linha 18 pegamos o resultado da requisição, e na linha 19 exibimos a resposta dentro de um <b>alert</b>.</p>
+
+<p>E voilá!!!</p>
+
+<figure>
+  <p>
+    <img src="{{ "/assets/img/async1.png" | prepend: site.baseurl }}" alt="Erro assíncrono" class="center-img">
+  </p>
+  <figcaption>
+    Ué...
+  </figcaption>
+</figure>
+
+<p>Parece que algo deu errado... O que acontece é que o JS é mais rápido que o tempo da requisição. Na linha 18, a requsição é feita, mas o JS não espera pela resposta da API, então a função entrega apenas um <b>undefined</b> para a variável. Na linha 19, o JS exibe o undefined recebido na linha de cima dentro do alert.</p>
+
+<p>Será que esse caso encaixa com nossa definição de <b>promise</b>?</p>
+
+<ul>
+	<li>Requisição assíncrona? Check</li>
+	<li>Tratamento de resposta com sucesso ou falha? Check</li>
+</ul>
+
+<h2>Adaptando o código para Promise</h2>
+
+<p>Adaptando a promise no código anterior, ficaria assim:</p>
+
+<script src="https://gist.github.com/HugoTamaki/b2a93fa3a7582fcdd77ca4fd16aed494.js"></script>
+
+<p>Executando o código acima no navegador...</p>
+
+<figure>
+  <p>
+    <img src="{{ "/assets/img/async2.png" | prepend: site.baseurl }}" alt="Erro assíncrono" class="center-img">
+  </p>
+  <figcaption>
+    Deu certo!!!
+  </figcaption>
+</figure>
+
+<p>Na linha 8 foi adicionado um retorno de uma instância de um objeto do tipo <b>Promise</b>. Na hora de instanciar, ela recebe uma função com dois argumentos, <b>resolve</b> e <b>reject</b>.</p>
+
+<script src="https://gist.github.com/HugoTamaki/e3a83851d703e888461c69d943af5306.js"></script>
+
+<p>Dentro da Promise, você passa qualquer trecho de código que seja <b>assíncrono</b>. Se você quer que um determinado resultado seja retornado como <b>sucesso</b>, ele deve ser passado dentro da função <b>resolve</b>. Se você quer que um determinado resultado de <b>falha</b> seja retornado, ele deve ser passado dentro da função <b>reject</b>, como foi feito em <b>resolve(JSON.parse(this.responseText));</b> e em <b>reject({error: 'Requisição falhou'});</b>.</p>
+
+<p>O modo como a função com trecho assincrono é chamada também é modificada. Lembra que agora a função <b>getUserFromGithub</b> retorna um objeto do tipo <b>Promise</b>?</p>
+
+<script src="https://gist.github.com/HugoTamaki/55c22e28df728f4af8ee8b5a419bca3c.js"></script>
+
+<p>Então, esse objeto possui alguns métodos específicos, como o <b>then</b> e o <b>catch</b>. O que é passado como função dentro do <b>then</b> é executado quando a ação assíncrona é feita com sucesso (no exemplo inicial, quando o correio está aberto). O argumento <b>response</b> é equivalente ao que foi passado dentro do <b>resolve</b> na função assíncrona</p>
+
+<p>Já o que é passado dentro do <b>catch</b> é executado quando o código assíncrono falha (quando o correio está fechado, no exemplo inicial). O argumento <b>errorMessage</b> é equivalente ao que foi passado dentro do <b>reject</b> na função assíncrona.</p>
+
+<p>E o caso de falha? Como posso testar?</p>
+
+<p>Bom, você pode experimentar trocar a URL da API por uma URL que não existe. Pode trocar de repente <b>`https://api.github.com/users/${userName}`</b> por <b>`https://api.githu.com/users/${userName}`</b>. Repare que eu comi um <b>b</b> na URL. Veja que no alert, passará a ser exibido a mensagem que foi definida em caso de falha, no <b>reject</b>.</p>
+
+<p>O que acha de trocar suas chamadas a APIs por promises?</p>
